@@ -1,0 +1,22 @@
+mkdir -p ~/scala_project/src/main/scala
+
+cd ~/scala_project
+
+name := "TermuxScalaProject"
+
+version := "1.0"
+
+scalaVersion := "2.13.10"
+
+libraryDependencies ++= Seq(
+
+  "com.typesafe.akka" %% "akka-actor" % "2.6.19",
+
+  "com.typesafe.akka" %% "akka-stream" % "2.6.19",
+
+  "com.typesafe.akka" %% "akka-http" % "10.2.10",
+
+  "io.spray" %% "spray-json" % "1.3.6"
+
+cd ~/scala_project
+
